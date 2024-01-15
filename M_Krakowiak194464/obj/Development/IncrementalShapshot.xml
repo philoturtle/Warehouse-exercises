@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>M_Krakowiak294464_OLAP</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>rY0PcT5vSUFZcX0k0fOlfK28ZHM=07.12.2023 15:17:1107.12.2023 10:55:42</TimeStamp>
+        <ID>
+          <String>Krakowiak M 294464</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>tdixgx/HRrls5J97BfO5T+6E0as=07.12.2023 11:04:0307.12.2023 10:57:55</TimeStamp>
+        <ID>
+          <String>TEST</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>etvEIH5+4rm2+EEB9PDVwKrt9Sw=14.12.2023 08:32:1807.12.2023 11:04:03</TimeStamp>
+        <ID>
+          <String>Time Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Dq1VGjku7kSwryGnDtYAdgrPmno=15.12.2023 09:59:2207.12.2023 11:04:03</TimeStamp>
+        <ID>
+          <String>Insurance Provider Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P6XyyYWTYRZjiusdt26m/61VNLk=15.12.2023 10:01:1307.12.2023 11:04:03</TimeStamp>
+        <ID>
+          <String>Patient Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>OQPUgdW+R20AyZXpQU3MdnkEIDw=15.12.2023 10:02:0007.12.2023 11:04:03</TimeStamp>
+        <ID>
+          <String>Doctor Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Pa1aQadeJHPZuuq1sVRq4HJVz30=14.12.2023 08:38:4107.12.2023 11:04:03</TimeStamp>
+        <ID>
+          <String>Place Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>DNioDpf1SSY9QsUfB3E6cxQrRBk=15.12.2023 10:19:0407.12.2023 11:04:03Ea9mThIHqrSXKNMu8RNr9DL1S1M=07.12.2023 11:04:0307.12.2023 11:04:03</TimeStamp>
+        <ID>
+          <String>Cube_294464</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>dsD//6muy3aGALYOAEFSam1mZLA=07.12.2023 11:07:2307.12.2023 10:28:35</TimeStamp>
+      <ID>
+        <String>M_Krakowiak294464_OLAP</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-12-15T09:20:05.833333Z</LastDeployed>
+</DeploymentSnapshot>
